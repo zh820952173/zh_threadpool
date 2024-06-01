@@ -4,8 +4,7 @@ project(threadpool LANGUAGES CXX)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
-file(GLOB_RECURSE SRC ${
-  CMAKE_SOURCE_DIR}/*.cc)
+file(GLOB_RECURSE SRC ${CMAKE_SOURCE_DIR}/*.cc)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(threadpool_demo ${SRC})
