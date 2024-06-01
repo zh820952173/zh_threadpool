@@ -6,7 +6,7 @@
 
 - Support thread binding core
 - Support thread naming
-- Supports threaded task execution priority, default is immediate execution without priority
+- Supports thread task execution priority, default is immediate execution without priority
 - Support for getting thread task group return values
 
 ## building
