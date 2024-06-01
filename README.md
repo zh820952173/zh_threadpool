@@ -1,5 +1,5 @@
 # zh_threadpool
-
+- A modern, fast, lightweight thread pool library based on C++17
 - Only the linux OS is supported
 
 ## Features
