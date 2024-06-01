@@ -16,7 +16,7 @@ std::vector<int32_t> ThreadPool::GenCpuIdList(int size) {
     size = max_cpu_size;
   }
 
-  std::vector<int32_t> cpu_ids{size};
+  std::vector<int32_t> cpu_ids(size);
   std::iota(cpu_ids.begin(), cpu_ids.end(), 0);
 
   if (size > max_cpu_size) {
